@@ -10,7 +10,6 @@
 
 body {
     height: 100%;
-    width: fit-content;
 }
 
 .headerbar {
@@ -29,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     transition: top 0.5s;
     align-items: center;
     height: 60px;
